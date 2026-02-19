@@ -342,18 +342,6 @@ body::before {
   align-items: center;
   flex-direction: column;
 }
-
-/* Block site only on mobile */
-@media (max-width: 768px) {
-  body > *:not(.mobile-block) {
-    display: none !important;
-  }
-
-  .mobile-block {
-    display: flex !important;
-  }
-}
-
 .mobile-block h1 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -367,3 +355,4 @@ body::before {
 .hidden {
   display: none;
 }
+
